@@ -1,4 +1,4 @@
---G2_23BCS13761_Tanay Manish Nesari_session1--
+--G5_23BCS13761_Tanay Manish Nesari_session 1--
 
 CREATE TABLE departments (
     department_id SERIAL PRIMARY KEY,
@@ -34,8 +34,9 @@ SELECT
 FROM employees e
 JOIN departments d ON e.department_id = d.department_id;
 
---G2_23BCS13761_Tanay Manish Nesari_session1--
+--G5_23BCS13761_Tanay Manish Nesari_session 2--
 
 CREATE ROLE Analyst;
+
 
 GRANT SELECT ON Employee_View TO Analyst;
